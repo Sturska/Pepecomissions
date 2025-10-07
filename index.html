@@ -24,24 +24,38 @@
                 <li><a href="#contact" data-translate="nav_contact">Contact</a></li>
             </ul>
             <div class="language-selector">
-                <button class="lang-btn active" data-lang="en" title="English">
-                    <img src="eua.webp" alt="English">
+                <button class="translate-btn" id="translateBtn">
+                    <span class="translate-icon">🌐</span>
+                    <span class="translate-text">Translate</span>
+                    <span class="translate-arrow">▼</span>
                 </button>
-                <button class="lang-btn" data-lang="pt" title="Português Brasil">
-                    <img src="brasil.png" alt="Português">
-                </button>
-                <button class="lang-btn" data-lang="el" title="Ελληνικά">
-                    <img src="grecia.webp" alt="Ελληνικά">
-                </button>
-                <button class="lang-btn" data-lang="de" title="Deutsch">
-                    <img src="germany.png" alt="Deutsch">
-                </button>
-                <button class="lang-btn" data-lang="es" title="Español">
-                    <img src="espana.png" alt="Español">
-                </button>
-                <button class="lang-btn" data-lang="ru" title="Русский">
-                    <img src="russia.png" alt="Русский">
-                </button>
+                <div class="language-dropdown" id="languageDropdown">
+                    <div class="dropdown-header">Select Language / Escolha o Idioma</div>
+                    <button class="lang-option" data-lang="en">
+                        <img src="eua.webp" alt="English">
+                        <span>English</span>
+                    </button>
+                    <button class="lang-option active" data-lang="pt">
+                        <img src="brasil.png" alt="Português">
+                        <span>Português Brasil</span>
+                    </button>
+                    <button class="lang-option" data-lang="el">
+                        <img src="grecia.webp" alt="Ελληνικά">
+                        <span>Ελληνικά (Greek)</span>
+                    </button>
+                    <button class="lang-option" data-lang="de">
+                        <img src="germany.png" alt="Deutsch">
+                        <span>Deutsch (German)</span>
+                    </button>
+                    <button class="lang-option" data-lang="es">
+                        <img src="espana.png" alt="Español">
+                        <span>Español (Spanish)</span>
+                    </button>
+                    <button class="lang-option" data-lang="ru">
+                        <img src="russia.png" alt="Русский">
+                        <span>Русский (Russian)</span>
+                    </button>
+                </div>
             </div>
             <div class="hamburger">
                 <span></span>
@@ -133,7 +147,7 @@
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="halfbody.png" alt="Half Body Character">
+                    <img src="halfbody.webp" alt="Half Body Character">
                 </div>
                 
                 <div class="gallery-item">
